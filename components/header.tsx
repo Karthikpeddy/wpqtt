@@ -13,6 +13,6 @@ const Header = () => {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
     </header>
-  ) as JSX.Element;
+  );
 };
 export default Header;
